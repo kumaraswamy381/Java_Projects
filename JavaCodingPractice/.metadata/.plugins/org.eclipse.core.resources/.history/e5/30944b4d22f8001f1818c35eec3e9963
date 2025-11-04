@@ -1,0 +1,23 @@
+package Simple_Programs;
+
+public class DefaultConstructor 
+{
+
+	String name;
+	int No;
+	
+	DefaultConstructor(){
+		name="kumar";
+		No =123;
+		
+	}
+	public static void main(String[] args) 
+	{
+		DefaultConstructor DC= new DefaultConstructor();
+		System.out.println(DC.name);
+		System.out.println(DC.No(33));
+
+
+	}
+
+}

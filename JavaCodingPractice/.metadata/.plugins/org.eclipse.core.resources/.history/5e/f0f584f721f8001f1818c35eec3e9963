@@ -1,0 +1,18 @@
+package Simple_Programs;
+
+public class DefaultConstructor 
+{
+
+	String name;
+	int No;
+	
+	DefaultConstructor(){
+		name="kumar";
+		No ="123";
+	}
+	public static void main(String[] args) {
+
+
+	}
+
+}

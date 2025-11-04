@@ -1,0 +1,26 @@
+package Simple_Programs;
+
+public class Simple {
+
+	private char[] name;
+	private char[] No;
+
+	public Simple()
+	{
+		String name;
+		int No;
+
+	}
+
+	public static void main(String[] args) 
+	{
+		Simple s1 =new Simple();
+		System.out.println(s1.name);
+		System.out.println(s1.No);
+		
+		
+	
+
+	}
+
+}

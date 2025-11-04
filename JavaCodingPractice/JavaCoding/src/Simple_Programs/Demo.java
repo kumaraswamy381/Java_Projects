@@ -1,0 +1,20 @@
+package Simple_Programs;
+
+public class Demo
+{
+	int a=10;
+	void display() {
+		int a=200;
+		System.out.println("Local variable" +a);
+		System.out.println("instance variable"  + this.a);
+	}
+
+	public static void main(String[] args)
+	{
+	
+		//this Demo obj = new this Demo();
+	//	obj.display();
+
+	}
+
+}

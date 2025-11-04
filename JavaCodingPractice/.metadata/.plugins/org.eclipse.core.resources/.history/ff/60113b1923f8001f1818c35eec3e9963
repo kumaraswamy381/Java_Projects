@@ -1,0 +1,20 @@
+package Simple_Programs;
+
+public class MethodOverLoading
+{
+	void display() {
+		System.out.println("display");
+	}
+	void display(int a) {
+		System.out.println("a=" +a);
+	}
+	
+	class MethodOverLoading{
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+}

@@ -1,0 +1,26 @@
+package OOPS;
+
+public class Parent1 {
+	
+		int a= 10;
+		void display() {
+			System.out.println("parent class");
+		}
+
+	class Child extends Parent1
+
+	{
+		int b=20;
+		void show() {
+			System.out.println("child class");
+			
+		}
+	}
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

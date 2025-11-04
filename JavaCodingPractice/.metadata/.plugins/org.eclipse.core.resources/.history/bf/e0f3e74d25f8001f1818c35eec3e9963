@@ -1,0 +1,29 @@
+package OOPS;
+
+public class Parent 
+{
+	int a= 10;
+	void display() {
+		System.out.println("parent class");
+	}
+
+class child extends Parent
+
+{
+	int b=20;
+	void show() {
+		System.out.println("child class");
+		
+	}
+}
+
+class inherit
+{
+	public static void main(String[] args) 
+	{
+		Child obj= new Child();
+
+	}
+
+}
+}
